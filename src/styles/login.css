@@ -1,7 +1,7 @@
 *{
     margin:0;
     padding:0;
-    box-sizing:border-box;
+    box-sizing:content-box;
 }
 
 .login{
@@ -13,7 +13,7 @@
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    margin-top:3%;
+    margin-top:0%;
     background-color:#5ECBF3;
     height:90vh;
     border-radius:10px;
