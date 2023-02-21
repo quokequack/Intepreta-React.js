@@ -1,14 +1,12 @@
 *{
-    padding:0;
     margin:0;
+    padding:0;
     box-sizing:border-box;
 }
+
 body{
     background-image:linear-gradient(to top, #3E9987, #20D0AD);
     height:100vh;
-}
-.container{
-
 }
 .container2{
     display:flex;
