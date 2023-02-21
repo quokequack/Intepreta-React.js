@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+﻿# Interpreta
+## 1.Nome do Projeto
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Interpreta.
 
-## Available Scripts
+## 2.Breve Síntese da Proposta
 
-In the project directory, you can run:
+Diante do crescente número de analfabetos funcionais no país, isto é, pessoas que apesar de saber ler, não conseguem interpretar textos simples e da demanda dessa competência em grandes vestibulares, o objetivo é criar um aplicativo capaz de auxiliar essas pessoas no que diz respeito ao aprendizado em compreensão textual através de um aplicativo com uma interface simples e divertida.
 
-### `npm start`
+## 3.Equipe Técnica
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Maria Luísa Alaquoke Ferreira dos Santos
+Matheus Gamarra Galdino dos Santos
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## 4. Justificativa de Aderência da Proposta ao Tema Escolhido 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+O acesso à educação pública no Brasil, embora tenha sido ampliado nas últimas décadas, ainda é frágil em comparação com a educação privada. Isso faz com que, mesmo sendo alfabetizados, grande parte da população carente tenha muitas dificuldades com questões relacionadas ao ensino básico.
 
-### `npm run build`
+Atualmente, somente 8% dos alfabetizados no país lêem e compreendem o que foi lido. Isso deixa uma parcela gigantesca da população em situação de analfabetismo funcional, que por sua vez, é a incapacidade que uma pessoa demonstra ao não compreender textos simples, mesmo que capacitadas a decodificar minimamente as letras.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Em grandes vestibulares, como o ENEM, por exemplo, saber interpretar textos é de suma importância para o sucesso do candidato no exame, por isso, ser capaz de fazê-lo pode ser a chave para abrir portas de múltiplas oportunidades.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 5. Metodologia de execução
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+O projeto Interpreta será desenvolvido usando o processo de engenharia de software eXtreme Programming (XP). 
 
-### `npm run eject`
+Sendo ele um método ágil de engenharia de software, seu principal objetivo levar as boas práticas de programação ao extremo.  Entre elas podemos citar o teste, visto que procurar defeitos é perda de tempo, nós temos que constantemente testar. Mas o XP possui mais práticas do que apenas testar, entre as práticas, o XP diz que:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Já que testar é bom, que todos testem o tempo todo;
+Já que revisão é bom, que se revise o tempo todo;
+Se projetar é bom, então refatorar o tempo todo;
+Se teste de integração é bom, então que se integre o tempo todo;
+Se simplicidade é bom, desenvolva uma solução não apenas que funcione, mas que seja a mais simples possível;
+Se iterações curtas é bom, então mantenha-as realmente curtas;
+### Escopo
+### Tempo
+### Qualidade
+A qualidade do sistema desenvolvido estará na confiabilidade, simplicidade e desempenho do aplicativo.
+## 6. Recursos Humanos
+   Descritos na equipe técnica.
+## 7. Riscos
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Identificação
+Ação para mitigar ou resolver os riscos
+Equipe despreparada para trabalho em grupo
+Contratar treinamentos rápidos na área específica
+a complexidade do sistema, não devidamente percebida nas etapas
+iniciais
+a complexidade do sistema, não devidamente percebida nas etapas iniciais
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 8. Cronograma
 
-## Learn More
+## 9. Interface de usuário
+![INTERPRETA](https://user-images.githubusercontent.com/88796071/208884169-7dca52bd-8c4c-43c3-ac9b-1e58a45ab5e1.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+O Interpreta é dividido em aplicativo e sistema web, onde os dois são subdividos em versão dos servidores e dos alunos.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 10. Áudio e Música
 
-### Code Splitting
+Será utilizado um som de aviso quando o usuário receber uma notificação, sem direitos autorais.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 11. Estilo e preferências
 
-### Analyzing the Bundle Size
+O aplicativo e o sistema web utilizam estilo responsivo.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 12. Ferramentas, plug-ins e dependências usados no desenvolvimento do aplicativo
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+O aplicativo irá utilizar a biblioteca da linguagem Javascript React Native e o Banco de Dados Firebase.
