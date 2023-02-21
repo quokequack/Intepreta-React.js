@@ -1,7 +1,11 @@
 import '../styles/login.css';
+import { useEffect } from 'react';
 
 
 export default function Homepage(){
+    useEffect(() => {
+        document.title='Interpreta | Login ';
+    },[]);
     return(
         <>
             <body className='login'>

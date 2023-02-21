@@ -1,12 +1,12 @@
 *{
     margin:0;
     padding:0;
-    box-sizing:border-box;
+    box-sizing:content-box;
 }
 
 .login{
-    background-image:linear-gradient(to top, #07BDFF, #009AD2);
-    height:100vh;
+    background-image:linear-gradient(to bottom, #07BDFF, #009AD2);
+    height:110vh;
 }
 .login-container2{
     display:flex;
