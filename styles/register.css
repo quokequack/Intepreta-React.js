@@ -1,0 +1,96 @@
+
+.register-page{
+    background-image:linear-gradient(to bottom, #FFBE9E, #FD7A39);
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.register-container2{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin-top:0%;
+    background-color:#FFAA81;
+    height:90vh;
+    border-radius:10px;
+}
+.header{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin-top:-5%;
+    color:white;
+}
+.icon{
+    font-size:2em;
+}
+.header h3{
+    font-size:1.5em;
+    text-transform:uppercase;
+    font-weight:700;
+    font-family:"Poppins";
+}
+.form{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin-top:4%;
+    font-family:'Poppins';
+}
+.form label{
+    color:white;
+    font-weight:400;
+    margin-top:2%;
+}
+.form input{
+    width:100%;
+    margin-top:3%;
+    font-size:1em;
+}
+.form .form-control{
+    color:#FD7A39;
+}
+.form button{
+    justify-content:center;
+    align-self:center;
+    width:100%;
+}
+.form .login-link{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.form .login-link p{
+    margin-top:8%;
+    margin-bottom:3%;
+    font-family:'Poppins';
+    color:white;
+}
+.login-link .link{
+    color:white;
+    text-decoration:none;
+}
+.login-link button[type='submit']{
+    background-color:white;
+    color:#FD7A39;
+    border:none;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+.login-link button[type='submit']:hover{
+    background-color:#FD7A39;
+    color:white;
+}
+.login-link #btn-log{
+    background-color:#FFBE9E;
+    border:none;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+.login-link #btn-log:hover{
+    background-color:#FD7A39;
+
+}
