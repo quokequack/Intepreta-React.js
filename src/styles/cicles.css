@@ -1,0 +1,71 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+.cicles{
+    background-image:linear-gradient(to bottom, #F5E45F, #3E9987);
+    height:120vh;
+}
+.cicles-container{
+    margin-top:4%;
+}
+.cicle-right{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:4%;
+}
+.cicle-right .cicle-img{
+    width:30%;
+    height:250px;
+    background-color:white;
+    border-radius:10px;
+}
+.cicle-right .cicle-text{
+    font-family:'Poppins';
+    color:white;
+    width:60%;
+    margin-left:2%;
+}
+.cicle-right .cicle-text h3{
+    text-transform:uppercase;
+}
+.cicle-left{
+    display:flex;
+    flex-direction:row-reverse;
+    justify-content:center;
+    align-items:center;
+}
+.cicle-left .cicle-img{
+    width:30%;
+    height:250px;
+    background-color:white;
+    border-radius:10px;
+}
+.cicle-left  .cicle-text{
+    color:white;
+    font-family:'Poppins';
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row-reverse;
+    width:60%;
+    margin-right:3%;
+}
+.cicle-left .cicle-text h3{
+    text-transform:uppercase;
+    
+}
+@media (min-width:320px) and (max-width:720px){
+    .cicle-right{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        margin-bottom:4%;
+        
+    }
+    .cicle-right .cicle-img{
+        flex-wrap:wrap;
+    }
+}

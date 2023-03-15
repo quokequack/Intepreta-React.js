@@ -2,8 +2,12 @@ import React from 'react';
 import '../styles/login.css';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {Link} from 'react-router-dom';
+import { useEffect } from 'react';
 
 export default function Homepage(){
+    useEffect(() => {
+        document.title = "Interpreta | Entre";
+      }, []);
     return(
         <>
             <body className='login'>

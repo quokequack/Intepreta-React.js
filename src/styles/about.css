@@ -11,7 +11,7 @@
     flex-direction: column;
     justify-content: center;
 }
-.about-container{
+.about-container{ 
     display:flex;
     flex-direction:column;
     justify-content:center;

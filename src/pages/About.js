@@ -1,10 +1,12 @@
 import '../styles/about.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
-
+import { useEffect } from 'react';
 
 export default function About() {
-
+    useEffect(() => {
+        document.title = "Interpreta | Sobre";
+      }, []);
     return (
         <>
             <div className='about'>
@@ -57,7 +59,7 @@ export default function About() {
                         </div>
                     </div>
                     <div className='btn-next'>
-                        <button type='button' className='btn btn-primary'><Link className='link' to='/homepage'><FontAwesomeIcon icon='arrow-right' /></Link></button>
+                        <button type='button' className='btn btn-primary'><Link className='link' to='/home'><FontAwesomeIcon icon='arrow-right' /></Link></button>
                     </div>
                 </div>
             </div>

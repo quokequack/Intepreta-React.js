@@ -1,9 +1,13 @@
 import '../styles/register.css';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { useEffect } from 'react';
 
 
 export default function Register(){
+    useEffect(() => {
+        document.title = "Interpreta | Registre-se";
+      }, []);
     return(
         <>
             <body className='register-page'>

@@ -1,0 +1,73 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.home{
+    background-image:linear-gradient(to bottom, #F5E45F, #FD7A39);
+    height:150vh;
+}
+.home-container{
+    margin-top:3%;
+}
+.top{
+    display:flex;
+}
+.welcome{
+    color:white;
+    font-family:'Poppins';
+    font-weight:600;
+}
+.current-cicle{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin-left:60%;
+    font-family:'Poppins';
+}
+.current-cicle h4{
+    color:white;
+}
+.current-cicle .ellipse{
+    margin-left:2%;
+    text-align:center;
+    width:50%;
+    height:50px;
+    background-color:white;
+    border-radius:100px;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    font-size:1.5em;
+    font-weight:600;
+    color:#F5E45F;
+
+}
+.lessons{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+}
+.last-lessons > button, .next-lessons > button{
+    height:50px;
+    background-color:white;
+    margin-top:2%;
+    border-radius:10px;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    width:100%;
+
+}
+.lessons p{
+    font-family:'Poppins';
+    font-size:1.3em;
+    font-weight:500;
+    color:#F5E45F;
+    text-align:left;
+}
+.lessons h3{
+    margin-top:3%;
+    font-family:'Poppins';
+    font-size:1.3em;
+    color:white;
+}
