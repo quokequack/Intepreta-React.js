@@ -7,9 +7,9 @@ import About from './pages/About';
 import Home from './pages/Home';
 import Cicles from './pages/Cicles';
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faFeather, faMoon, faArrowRight} from "@fortawesome/free-solid-svg-icons";
+import { faFeather, faMoon, faArrowRight, faLock} from "@fortawesome/free-solid-svg-icons";
 
-library.add(faFeather, faMoon, faArrowRight);
+library.add(faFeather, faMoon, faArrowRight, faLock);
 function App() {
   return (
     <>

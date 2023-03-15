@@ -6,7 +6,7 @@
 
 .cicles{
     background-image:linear-gradient(to bottom, #F5E45F, #3E9987);
-    height:120vh;
+    height:160vh;
 }
 .cicles-container{
     margin-top:4%;
@@ -20,8 +20,27 @@
 .cicle-right .cicle-img{
     width:30%;
     height:250px;
-    background-color:white;
+    background-color:#F5E45F;
     border-radius:10px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.cicle-right .cicle-img .icon-lock{
+    color:white;
+    font-size:5em;
+}
+.cicle-right .cicle-img:hover{
+    background-color:#FF9595;
+    cursor:pointer;
+}
+.cicle-right .cicle-img .icon-lock{
+    font-size:5em;
+    color:white;
+}
+.cicle-right .cicle-img .icon-lock:hover{
+    color:red;
+    cursor:pointer;
 }
 .cicle-right .cicle-text{
     font-family:'Poppins';
@@ -41,8 +60,23 @@
 .cicle-left .cicle-img{
     width:30%;
     height:250px;
-    background-color:white;
+    background-color:#F5E45F;
     border-radius:10px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.cicle-left .cicle-img:hover{
+    background-color:#FF9595;
+    cursor:pointer;
+}
+.cicle-left .cicle-img .icon-lock{
+    font-size:5em;
+    color:white;
+}
+.cicle-left .cicle-img .icon-lock:hover{
+    color:red;
+    cursor:pointer;
 }
 .cicle-left  .cicle-text{
     color:white;
