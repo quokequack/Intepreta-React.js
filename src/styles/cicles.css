@@ -5,8 +5,8 @@
 }
 
 .cicles{
-    background-image:linear-gradient(to bottom, #F5E45F, #3E9987);
-    height:160vh;
+    background-image:linear-gradient(to bottom, #F5E45F, #20D0AD, #3E9987);
+    height:250vh;
 }
 .cicles-container{
     margin-top:4%;
@@ -25,22 +25,57 @@
     display:flex;
     align-items:center;
     justify-content:center;
+    transition:1s ease;
 }
+.cicle-right .cicle-img-unblocked{
+    width:30%;
+    height:250px;
+    background-color:#3E9987;
+    border-radius:10px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    transition: 1s ease;
+    cursor:pointer;
+}
+.cicle-right .cicle-img-unblocked:hover{
+    background-color:#20D0AD;
+    transition: 1s ease;
+}
+.cicle-right .btn-primary, .cicle-left .btn-primary{
+    display:none;
+}
+.cicle-right .go_button{
+    width:50%;
+    height:50%;
+    color:white;
+    text-transform:uppercase;
+    font-family:'Poppins';
+    background-color:#20D0AD;
+    border:none;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+
+}
+
 .cicle-right .cicle-img .icon-lock{
     color:white;
     font-size:5em;
+
 }
 .cicle-right .cicle-img:hover{
+    transition:1s ease;
     background-color:#FF9595;
     cursor:pointer;
 }
 .cicle-right .cicle-img .icon-lock{
     font-size:5em;
+    transition:1s ease;
     color:white;
 }
 .cicle-right .cicle-img .icon-lock:hover{
     color:red;
     cursor:pointer;
+    transition:1s ease;
 }
 .cicle-right .cicle-text{
     font-family:'Poppins';
@@ -65,20 +100,25 @@
     display:flex;
     align-items:center;
     justify-content:center;
+    transition:1s ease;
 }
 .cicle-left .cicle-img:hover{
+    transition:1s ease;
     background-color:#FF9595;
     cursor:pointer;
 }
 .cicle-left .cicle-img .icon-lock{
+    transition:1s ease;
     font-size:5em;
     color:white;
 }
 .cicle-left .cicle-img .icon-lock:hover{
+    transition:1s ease;
     color:red;
     cursor:pointer;
 }
 .cicle-left  .cicle-text{
+    text-align:right;
     color:white;
     font-family:'Poppins';
     display:flex;
@@ -90,16 +130,4 @@
 .cicle-left .cicle-text h3{
     text-transform:uppercase;
     
-}
-@media (min-width:320px) and (max-width:720px){
-    .cicle-right{
-        display:flex;
-        justify-content:center;
-        align-items:center;
-        margin-bottom:4%;
-        
-    }
-    .cicle-right .cicle-img{
-        flex-wrap:wrap;
-    }
 }
