@@ -1,14 +1,15 @@
 import '../styles/ciclo1.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
+import Header from '../components/header';
 
 
 export default function Ciclo1() {
 
     return (
         <>
-            <div className='ciclo1'>
-                <div className='header-ciclo1'>
+            <div className='container ciclo1'>
+                <div className='container header-ciclo1'>
                         <div className='icon'>
                             <FontAwesomeIcon icon='feather' />
                         </div>
