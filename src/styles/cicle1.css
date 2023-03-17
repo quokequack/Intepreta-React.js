@@ -1,3 +1,69 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.cicle1{
+    height:105vh;
+    background-image:linear-gradient(to bottom, #B2EEE2, #009AD2);
+}
+.cicle1-container{
+    margin-top:1.5%;
+    display:flex;
+    background-color:#93DFDF;
+    height:90vh;
+    border-radius:10px;
+}
+.btns{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.task-btn .line{
+    width:300%;
+    height:3px;
+    background-color:white;
+}
+.task-btn .task{
+    color:white;
+
+    font-family:'Poppins';
+    font-size:2.5em;
+    margin-top:10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .header-ciclo1{
     display: inline-block;
     flex-direction: column;
@@ -8,7 +74,7 @@
     color: #FD7A39;
     background-color: white;
 
-}
+} 
 .inter-txt{
     font-family: 'Poppins';
 font-style: normal;
