@@ -10,29 +10,41 @@
 .cicle1-container{
     margin-top:1.5%;
     display:flex;
+    justify-content:center;
+    align-items:center;
     background-color:#93DFDF;
     height:90vh;
     border-radius:10px;
 }
-.btns{
+.buttons-tasks{
+    width:80%;
     display:flex;
     flex-direction:column;
-    align-items:center;
-    justify-content:center;
+    text-align:Center;
+}
+.task-btn .task:hover{
+    font-size:1.4em;
+    transition:1s ease;
+    text-shadow: 2px 9px 10px rgba(255,255,255,0.6);
+    border:none;
 }
 .task-btn .line{
-    width:300%;
-    height:3px;
+    height:1px;
     background-color:white;
+    width:100%;
+    margin-top:2%;
 }
 .task-btn .task{
-    color:white;
-
-    font-family:'Poppins';
-    font-size:2.5em;
-    margin-top:10%;
+    margin-top:1%;
+    transition:1s ease;
 }
-
+.link-cicle1{
+    text-decoration:none;
+    color:white;
+    font-family:'Poppins';
+    font-weight:500;
+    font-size:2.3em;
+}
 
 
 

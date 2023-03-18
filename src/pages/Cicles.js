@@ -17,7 +17,7 @@ export default function Cicles(){
                 <div className='container cicles-container'>
                    <div className='container-fluid cicle-right'>
                         <div className='container cicle-img-unblocked'>
-                            <button id='go_button' className='btn go_button'>Começar</button>
+                            <button id='go_button' className='btn go_button'><Link className='link-cicle' to='/cicle1'>Começar</Link></button>
                         </div>
                         <div className='container cicle-text'>
                             <h3 className='text-start'>Ciclo 1</h3>
