@@ -4,7 +4,7 @@ import { useEffect } from "react";
 
 export default function Homepage() {
   useEffect(() => {
-    document.title = "Interpreta | Welcome";
+    document.title = "Interpreta | Welcome"; 
   }, []);
   return (
     <>
