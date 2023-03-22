@@ -21,10 +21,10 @@ export default function Header(){
                                             <a id='active-nav-item' className="nav-link active" aria-current="page" href="/home">Home</a>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="nav-link" href="/profile">Perfil</a>
+                                            <a className="nav-link" href="/cicles">Ciclos</a>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="nav-link" href="/cicles">Ciclos</a>
+                                            <a className="nav-link" href="/sac">Ajuda</a>
                                         </li>
                                         <li className="nav-item">
                                             <a className="nav-link" href="/logout">Logout</a>

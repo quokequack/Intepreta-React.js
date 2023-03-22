@@ -7,6 +7,7 @@ import About from './pages/About';
 import Home from './pages/Home';
 import Cicles from './pages/Cicles';
 import Cicle1 from './pages/Cicle1';
+import Sac from './pages/Sac';
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faFeather, faMoon, faArrowRight, faLock} from "@fortawesome/free-solid-svg-icons";
 
@@ -23,6 +24,7 @@ function App() {
       <Route path='/home' element={<Home />}/>
       <Route path='/cicles' element={<Cicles />}/>
       <Route path='/cicle1' element={<Cicle1 />}/>
+      <Route path='/sac' element={<Sac/>}/>
     </Routes>
     </BrowserRouter>
     </>
