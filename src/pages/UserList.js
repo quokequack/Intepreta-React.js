@@ -1,4 +1,4 @@
-import PersonList from "../componentes-crud/PersonList";
+import PersonList from "../backend/componentes-crud/PersonList";
 
 export default function UserList(){
     return(
