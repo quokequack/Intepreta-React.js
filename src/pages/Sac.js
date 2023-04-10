@@ -13,12 +13,23 @@ export default function Sac(){
                 </h1>
                 <div className='form'>
                     <form method='post'>
-                        <div className='row'>
-                            <div className='col-md-12'>
+                        
+                            <div className='col-md-24'>
                                 <label for='name'>Nome completo:</label>
                                 <input type='text' className='form-control'/>
                             </div>
-                        </div>
+                            <div className='col-md-12'>
+                                <label> Email</label>
+                                <input type='text' name='email' className='form-control'/>
+                                <label> Telefone</label>
+                                <input type='number' name='telefone' className='form-control'/>
+                            </div>
+                            <div className='col-md-12'>
+                                <label> Assunto</label>
+                                <input type='text' name='assunto'className='form-control'/>
+                                <textarea className='form-control'></textarea>
+                            </div>
+           
                     </form>
                 </div>
             </div>
