@@ -1,12 +1,12 @@
 import React from 'react';
-import '../styles/login.css';
+import '../styles/register.css';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {Link} from 'react-router-dom';
+import CadastroForm from '../backend/componentes-crud/CadastroForm';
 import { useEffect } from 'react';
 
 export default function Homepage(){
     useEffect(() => {
-        document.title = "Interpreta | Entre";
+        document.title = "Interpreta | Cadastre-se!";
       }, []);
     return(
         <>
@@ -19,21 +19,7 @@ export default function Homepage(){
                             </div>
                             <h3>Interpreta</h3>
                         </div>
-                        <div className='form'>
-                            <form className='form-horizontal'>
-                                <label htmlFor='name'>Nome:</label>
-                                <input type='text' name='name' class='form-control'/>
-                                <label htmlFor='name'>Email:</label>
-                                <input type='email' name='name' class='form-control'/>
-                                <label htmlFor='name'>Senha:</label>
-                                <input type='password' name='name' class='form-control'/><br/> 
-                            </form>                           
-                            <div className='register'>
-                                <button type='submit' className='btn btn-primary'>Fazer cadastro!</button> 
-                                <p>Já possui uma conta?</p>
-                                <button id='btn-reg' className='btn btn-primary'><Link className='link' to='/register'>Entre!</Link></button>
-                            </div>
-                        </div>
+                        <CadastroForm />
                     </div>
                 </div>
             </body>

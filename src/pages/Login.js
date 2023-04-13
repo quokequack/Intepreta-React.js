@@ -1,4 +1,4 @@
-import '../styles/register.css';
+import '../styles/login.css';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useEffect } from 'react';
@@ -6,8 +6,9 @@ import { useEffect } from 'react';
 
 export default function Register(){
     useEffect(() => {
-        document.title = "Interpreta | Registre-se";
-      }, []);
+        document.title = "Interpreta | Entre!";
+    }, []);
+    
     return(
         <>
             <body className='register-page'>
@@ -29,7 +30,7 @@ export default function Register(){
                             <div className='login-link'>
                                 <button type='submit' className='btn btn-primary'>Entrar!</button> 
                                 <p>Ainda não possui conta?</p>
-                                <button id='btn-log' className='btn btn-primary'><Link className='link' to='/login'>Cadastre-se!</Link></button>
+                                <button id='btn-log' className='btn btn-primary'><Link className='link' to='/register'>Cadastre-se!</Link></button>
                             </div>
                         </div>
                     </div>

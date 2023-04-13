@@ -16,14 +16,16 @@ export default class PersonList extends React.Component {
         <thead>
           <tr>
             <th>ID</th>
+            <br/>
             <th>Nome</th>
+            <br/>
             <th>Ação</th>
           </tr>
         </thead>
         <tbody>
           {this.state.persons.map((person) => (
-            <tr key={person.id}>
-              <td>{person.id}</td>
+            <tr key={person.userID}>
+              <td>{person.userID}</td>
               <td>{person.nome}</td>
               <td>{person.email}</td>
               <td>
